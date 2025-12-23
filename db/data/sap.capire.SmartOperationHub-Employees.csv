@@ -1,0 +1,11 @@
+ID,first_name,last_name,email,role,createdAt,createdBy,modifiedAt,modifiedBy
+24442173-474c-476c-b066-4130bb9006d6,first_name-24442173,last_name-24442173,email-24442173,EMPLOYEE,2007-02-22T00:00:00.000Z,createdBy.ejvp9@example.com,2009-03-15T00:00:00.000Z,modifiedBy.ejvp9@example.org
+15300780-ff5a-4647-a355-6c7b9f48f6ff,first_name-15300780,last_name-15300780,email-15300780,EMPLOYEE,2013-02-11T00:00:00.000Z,createdBy.93y5o@example.com,2015-04-26T00:00:00.000Z,modifiedBy.93y5o@example.org
+15300781-cdfe-464d-a9fd-df0058dd5103,first_name-15300781,last_name-15300781,email-15300781,EMPLOYEE,2017-08-06T00:00:00.000Z,createdBy.93y5p@example.net,2011-02-17T00:00:00.000Z,modifiedBy.93y5p@example.org
+15300782-5b69-4c39-89fa-e2a767bae00b,first_name-15300782,last_name-15300782,email-15300782,MANAGER,2004-01-22T00:00:00.000Z,createdBy.93y5q@example.com,2023-02-28T00:00:00.000Z,modifiedBy.93y5q@example.net
+15300783-139f-4b3b-9262-f8dbf24ecc27,first_name-15300783,last_name-15300783,email-15300783,ADMIN,2004-05-20T00:00:00.000Z,createdBy.93y5r@example.net,2002-07-26T00:00:00.000Z,modifiedBy.93y5r@example.com
+15300784-353c-4a83-886a-2250b60fa5ad,first_name-15300784,last_name-15300784,email-15300784,MANAGER,2000-01-07T00:00:00.000Z,createdBy.93y5s@example.org,2007-03-17T00:00:00.000Z,modifiedBy.93y5s@example.net
+15300785-1392-440a-8543-49b5b41e4d28,first_name-15300785,last_name-15300785,email-15300785,ADMIN,2001-06-05T00:00:00.000Z,createdBy.93y5t@example.net,2011-11-12T00:00:00.000Z,modifiedBy.93y5t@example.org
+15300786-22ad-43f6-826a-ebfc797125c1,first_name-15300786,last_name-15300786,email-15300786,EMPLOYEE,2004-03-29T00:00:00.000Z,createdBy.93y5u@example.net,2010-09-18T00:00:00.000Z,modifiedBy.93y5u@example.net
+15300787-ee2e-418b-8680-89868d86d3b3,first_name-15300787,last_name-15300787,email-15300787,EMPLOYEE,2006-11-04T00:00:00.000Z,createdBy.93y5v@example.org,2020-04-23T00:00:00.000Z,modifiedBy.93y5v@example.com
+15300788-d94b-46ea-9102-3fe4a5e294fa,first_name-15300788,last_name-15300788,email-15300788,EMPLOYEE,2021-05-11T00:00:00.000Z,createdBy.93y5w@example.org,2021-11-12T00:00:00.000Z,modifiedBy.93y5w@example.org
