@@ -1,4 +1,8 @@
 using OperationsService as service from '../../srv/operations-service';
+
+// This enables the create/edit button
+annotate service.Projects with @odata.draft.enabled;
+
 annotate service.Projects with @(
     UI.FieldGroup #GeneratedGroup : {
         $Type : 'UI.FieldGroupType',
