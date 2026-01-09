@@ -108,6 +108,7 @@
             "settings": {
               "contextPath": "/Projects",
               "variantManagement": "Page",
+              "liveMode": true,
               "navigation": {
                 "Projects": {
                   "detail": {
