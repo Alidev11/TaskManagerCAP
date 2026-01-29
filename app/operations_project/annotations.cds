@@ -115,12 +115,6 @@ annotate service.Tasks with @(
             Label : 'General Information',
             Target : '@UI.FieldGroup#TasksGroup',
         },
-        // {
-        //     $Type : 'UI.ReferenceFacet',
-        //     Label : 'Employees',
-        //     ID : 'Employees',
-        //     Target : 'employees/@UI.LineItem#Employees',
-        // },
     ],
     UI.LineItem: [
         { Value: title, Label: 'Task Name' },
@@ -140,10 +134,4 @@ annotate service.Employees with @(
         { Value: email, Label: 'Email' },
         { Value: role, Label: 'Role' },
     ],
-    // UI.LineItem #Employees : [
-    //     { Value: first_name, Label: 'First Name' },
-    //     { Value: last_name, Label: 'Last Name' },
-    //     { Value: email, Label: 'Email' },
-    //     { Value: role, Label: 'Role' },
-    // ],
 );
