@@ -1,31 +1,29 @@
-using { managed } from '@sap/cds/common';
+using { managed, cuid } from '@sap/cds/common';
 
 namespace sap.capire.SmartOperationHub;
 
 // ------------------------------------ ENTITIES ------------------------------
 
-entity Employees : managed {
-    key ID : UUID;
+entity Employees : managed, cuid {
     first_name : String;
     last_name : String;
     email : String;
     role : Role default 'EMPLOYEE';
+    project : Association to many Projects
 }
 
-entity Projects : managed {
-    key ID : UUID;
+entity Projects : managed, cuid {
     name : String;
     status : ProjectStatus;
     manager : Association to one Employees; 
     tasks : Composition of many Tasks on tasks.project = $self;
 }
 
-entity Tasks : managed {
-    key ID : UUID;
+entity Tasks : managed, cuid {
+    key project : Association to one Projects not null;
     title : String;
-    description : String(111);
+    description : String(255);
     status : TaskStatus;
-    project : Association to one Projects not null;
     assignee : Association to one Employees not null;
 }
 
