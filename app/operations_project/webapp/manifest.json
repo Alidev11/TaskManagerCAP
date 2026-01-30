@@ -119,7 +119,20 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "ResponsiveTable"
+                    "type": "ResponsiveTable",
+                    "condensedTableLayout": true,
+                    "enableMassEdit": false,
+                    "creationMode": {
+                      "name": "NewPage"
+                    },
+                    "personalization": {
+                      "column": true,
+                      "filter": true,
+                      "sort": true
+                    },
+                    "quickVariantSelection": {
+                      "showCounts": true
+                    }
                   }
                 }
               }
@@ -132,12 +145,27 @@
           "name": "sap.fe.templates.ObjectPage",
           "options": {
             "settings": {
-              "editableHeaderContent": false,
               "contextPath": "/Projects",
               "navigation": {
                 "tasks": {
                   "detail": {
                     "route": "TasksObjectPage"
+                  }
+                }
+              },
+              "content": {
+                "header": {
+                  "anchorBarVisible": true
+                }
+              },
+              "showRelatedApps": true,
+              "editableHeaderContent": false,
+              "controlConfiguration": {
+                "tasks/@com.sap.vocabularies.UI.v1.LineItem#Tasks": {
+                  "tableSettings": {
+                    "enableFullScreen": true,
+                    "enableMassEdit": false,
+                    "popinLayout": "Block"
                   }
                 }
               }
@@ -151,7 +179,12 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Projects/tasks"
+              "contextPath": "/Projects/tasks",
+              "content": {
+                "header": {
+                  "anchorBarVisible": true
+                }
+              }
             }
           }
         }
